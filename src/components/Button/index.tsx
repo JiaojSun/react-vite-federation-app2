@@ -1,5 +1,5 @@
-import React, { useEffect } from 'react';
-import './Button.css';
+import { useEffect } from 'react';
+import './index.css';
 
 // export default ({caption = "Shared Button"}) => <div className="shared-wrap"><button className='shared-btn'>{caption}</button><br/><h1>这是remote</h1></div>;
 function Button(props) {
