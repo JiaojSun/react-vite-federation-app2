@@ -1,9 +1,9 @@
-import Button from './components/Button';
+import OperatorsView from './components/OperatorsView';
 
 function App() {
   return (
     <div className="App">
-      <Button />
+      <OperatorsView />
     </div>
   );
 }

@@ -30,5 +30,16 @@ export default defineConfig({
     target: 'esnext',
     minify: false,
     cssCodeSplit: false
+  },
+  css: {
+    preprocessorOptions: {
+      sass: {
+        sassOptions: {
+          // 驼峰转换为短横线风格
+          indentWidth: 2, // 使用两个空格缩进
+          includePaths: []
+        }
+      }
+    }
   }
 });
